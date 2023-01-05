@@ -1,0 +1,203 @@
+html{
+    height:100%;
+}
+body{
+    min-height: 100%;
+    margin: 0;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 2s;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.header-container{
+    font-family: Roboto;
+    font-size: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 4em;
+    height: 3.5em;
+}
+.pre{
+    color: white;
+    font-weight: 100;
+}
+.park{
+    color:white;
+    font-weight: bolder;
+}
+.welcome-msg{
+    font-family: Roboto;
+    font-size: 4vh;
+    color: white;
+    text-align: center;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    font-weight: 300;
+}
+.locations-container{
+    display: flex;
+    justify-content: center;
+    gap: 12.5vh;
+}
+.clarkson-logo{
+    width: 35vh;
+    height: 30vh;
+}
+.slu-logo{
+    width: 35vh;
+    height: 30vh;
+}
+.school-addy1{
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10vh;
+}
+.clarkson-addy{
+    color: white;
+    font-size: 2.5vh;
+    font-weight: 300;
+}
+.slu-addy{
+    color: white;
+    font-weight: 300;
+    font-size: 2.5vh;
+}
+.reserve-buttons1{
+    display: flex;
+    font-family: Roboto;
+    justify-content: center;
+    gap: 40vh;
+}
+.clarkson-reserve-butt{
+    background-color:black;
+    font-size: 2vh;
+    padding: 1vh;
+    border-radius: 1vh;
+    border: 0.5vh solid white;
+    color: white;
+}
+.SLU-reserve-butt{
+    background-color: black;
+    font-size: 2vh;
+    padding: 1vh;
+    border-radius: 1vh;
+    border: 0.5vh solid white;
+    color: white;
+}
+.locations-container2{
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17.5vh;
+}
+.liberty-logo{
+    width: 35vh;
+    height: 15vh;
+}
+.buffalo-logo{
+    width: 27vh;
+    height: 20vh;
+}
+.reserve-buttons2{
+    display: flex;
+    font-family: Roboto;
+    justify-content: center;
+    gap: 40vh;
+}
+.liberty-butt{
+    background-color: black;
+    font-size: 2vh;
+    padding: 1vh;
+    border-radius: 1vh;
+    border: 0.5vh solid white;
+    color: white;
+}
+.buffalo-butt{
+    background-color: black;
+    font-size: 2vh;
+    padding: 1vh;
+    border-radius: 1vh;
+    border: 0.5vh solid white;
+    color: white;
+}
+.closer-container{
+    display:flex;
+    padding: 5vh;
+    justify-content: space-around;
+}
+.closer-content{
+    font-family: Roboto;
+    font-size: 2.5vh;
+    color: white;
+    font-weight: 100;
+}
+.dash{
+    font-family: Roboto;
+    font-size: 2.5vh;
+    color: white;
+    font-weight: 100;
+}
+.school-addy2{
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 17vh;
+}
+.liberty-addy{
+    color: white;
+    font-size: 2.5vh;
+    font-weight: 300;
+}
+.buffalo-addy{
+    color: white;
+    font-size: 2.5vh;
+    font-weight: 300;
+}
+.aboutpagecont{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    align-items: center;
+}
+.text-desc{
+    font-family: Roboto;
+    color: white;
+    font-size: 2.5vh;
+    font-weight: 300;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+.FAQ-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clarkson-reserve-butt:hover{
+    background-color: #064D44;
+    box-shadow:  0 0 10px 5px #064D44;
+}
+.SLU-reserve-butt:hover{
+    background-color: #BE2F37;
+    box-shadow:  0 0 10px 5px #BE2F37;
+}
+.buffalo-butt:hover{
+    background-color: #2E3192;
+    box-shadow:  0 0 10px 5px #2E3192;
+}
+.liberty-butt:hover{
+    background-color: #896C25;
+    box-shadow:  0 0 10px 5px #896C25;
+}
+.closer-content:hover{
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
